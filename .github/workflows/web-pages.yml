@@ -1,0 +1,53 @@
+name: Build and publish web game
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust and WebAssembly target
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+
+      - name: Build optimized WebAssembly game
+        run: cargo build --release --target wasm32-unknown-unknown
+
+      - name: Assemble Pages site
+        run: |
+          mkdir -p dist/assets
+          cp index.html .nojekyll dist/
+          cp target/wasm32-unknown-unknown/release/bounce_back_rust.wasm dist/
+          cp -R assets/levels assets/png dist/assets/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

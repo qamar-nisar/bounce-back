@@ -1,0 +1,160 @@
+{
+  "resource": "/res/lf",
+  "chunk_count": 44,
+  "levels": [
+    {
+      "level": 0,
+      "chunk_primary": 0,
+      "chunk_secondary": 1,
+      "primary_file": "000.bin",
+      "secondary_file": "001.bin"
+    },
+    {
+      "level": 1,
+      "chunk_primary": 2,
+      "chunk_secondary": 3,
+      "primary_file": "002.bin",
+      "secondary_file": "003.bin"
+    },
+    {
+      "level": 2,
+      "chunk_primary": 4,
+      "chunk_secondary": 5,
+      "primary_file": "004.bin",
+      "secondary_file": "005.bin"
+    },
+    {
+      "level": 3,
+      "chunk_primary": 6,
+      "chunk_secondary": 7,
+      "primary_file": "006.bin",
+      "secondary_file": "007.bin"
+    },
+    {
+      "level": 4,
+      "chunk_primary": 8,
+      "chunk_secondary": 9,
+      "primary_file": "008.bin",
+      "secondary_file": "009.bin"
+    },
+    {
+      "level": 5,
+      "chunk_primary": 10,
+      "chunk_secondary": 11,
+      "primary_file": "010.bin",
+      "secondary_file": "011.bin"
+    },
+    {
+      "level": 6,
+      "chunk_primary": 12,
+      "chunk_secondary": 13,
+      "primary_file": "012.bin",
+      "secondary_file": "013.bin"
+    },
+    {
+      "level": 7,
+      "chunk_primary": 14,
+      "chunk_secondary": 15,
+      "primary_file": "014.bin",
+      "secondary_file": "015.bin"
+    },
+    {
+      "level": 8,
+      "chunk_primary": 16,
+      "chunk_secondary": 17,
+      "primary_file": "016.bin",
+      "secondary_file": "017.bin"
+    },
+    {
+      "level": 9,
+      "chunk_primary": 18,
+      "chunk_secondary": 19,
+      "primary_file": "018.bin",
+      "secondary_file": "019.bin"
+    },
+    {
+      "level": 10,
+      "chunk_primary": 20,
+      "chunk_secondary": 21,
+      "primary_file": "020.bin",
+      "secondary_file": "021.bin"
+    },
+    {
+      "level": 11,
+      "chunk_primary": 22,
+      "chunk_secondary": 23,
+      "primary_file": "022.bin",
+      "secondary_file": "023.bin"
+    },
+    {
+      "level": 12,
+      "chunk_primary": 24,
+      "chunk_secondary": 25,
+      "primary_file": "024.bin",
+      "secondary_file": "025.bin"
+    },
+    {
+      "level": 13,
+      "chunk_primary": 26,
+      "chunk_secondary": 27,
+      "primary_file": "026.bin",
+      "secondary_file": "027.bin"
+    },
+    {
+      "level": 14,
+      "chunk_primary": 28,
+      "chunk_secondary": 29,
+      "primary_file": "028.bin",
+      "secondary_file": "029.bin"
+    },
+    {
+      "level": 15,
+      "chunk_primary": 30,
+      "chunk_secondary": 31,
+      "primary_file": "030.bin",
+      "secondary_file": "031.bin"
+    },
+    {
+      "level": 16,
+      "chunk_primary": 32,
+      "chunk_secondary": 33,
+      "primary_file": "032.bin",
+      "secondary_file": "033.bin"
+    },
+    {
+      "level": 17,
+      "chunk_primary": 34,
+      "chunk_secondary": 35,
+      "primary_file": "034.bin",
+      "secondary_file": "035.bin"
+    },
+    {
+      "level": 18,
+      "chunk_primary": 36,
+      "chunk_secondary": 37,
+      "primary_file": "036.bin",
+      "secondary_file": "037.bin"
+    },
+    {
+      "level": 19,
+      "chunk_primary": 38,
+      "chunk_secondary": 39,
+      "primary_file": "038.bin",
+      "secondary_file": "039.bin"
+    },
+    {
+      "level": 20,
+      "chunk_primary": 40,
+      "chunk_secondary": 41,
+      "primary_file": "040.bin",
+      "secondary_file": "041.bin"
+    },
+    {
+      "level": 21,
+      "chunk_primary": 42,
+      "chunk_secondary": 43,
+      "primary_file": "042.bin",
+      "secondary_file": "043.bin"
+    }
+  ]
+}

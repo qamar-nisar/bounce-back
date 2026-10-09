@@ -1,0 +1,16 @@
+[package]
+name = "Bounce Back"
+version = "1.0.0"
+
+[[bin]]
+name = "bounce_back_rust"
+path = "src/main.rs"
+
+[package.metadata.android]
+application-label = "Bounce Back"
+fullscreen = true
+orientation = "landscape"
+
+[package.metadata.android.sdk]
+min-sdk-version = 23
+target-sdk-version = 35
